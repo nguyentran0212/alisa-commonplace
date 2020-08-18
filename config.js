@@ -6,7 +6,7 @@ const config = {
     trailingSlash: false,
   },
   header: {
-    logo: '',
+    logo: '/logos/logo-200.png',
     logoLink: 'https://alisa.nk-tran.com',
     title:
       "Alisa's Notebook",
