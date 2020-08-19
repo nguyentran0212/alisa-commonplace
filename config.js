@@ -8,8 +8,7 @@ const config = {
   header: {
     logo: '/logos/logo-200.png',
     logoLink: 'https://alisa.nk-tran.com',
-    title:
-      "Alisa's Notebook",
+    title: "Alisa's Notebook",
     githubUrl: 'https://github.com/nguyentran0212/alisa-commonplace',
     helpUrl: '',
     tweetText: '',
