@@ -1,0 +1,45 @@
+backend:
+  name: github
+  repo: nguyentran0212/alisa-commonplace
+
+# backend:
+#   name: test-repo
+
+site_url: https://alisa.nk-tran.com
+
+media_folder: "static/assets"
+public_folder: "/assets"
+
+collections:
+  - name: "communication"
+    label: "Communication"
+    folder: "content/communication"
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    fields:
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Body", name: "body", widget: "markdown"}
+  - name: "conflict-resolution"
+    label: "Conflict Resolution"
+    folder: "content/conflict-resolution"
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    fields:
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Body", name: "body", widget: "markdown"}
+  - name: "music-lesson"
+    label: "Music Lesson"
+    folder: "content/music-lesson"
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    fields:
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Body", name: "body", widget: "markdown"}
+  - name: "top-level"
+    label: "Top Level Content"
+    folder: "content"
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    fields:
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Body", name: "body", widget: "markdown"}

@@ -48,6 +48,7 @@ const plugins = [
       anonymize: false,
     },
   },
+  'gatsby-plugin-netlify-cms',
 ];
 // check and add algolia
 if (config.header.search && config.header.search.enabled && config.header.search.algoliaAppId && config.header.search.algoliaAdminKey) {
